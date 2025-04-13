@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/books")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://library-manageme-git-5ba4d7-vivekkumar912850-gmailcoms-projects.vercel.app")
 public class BookController {
 
     @Autowired
