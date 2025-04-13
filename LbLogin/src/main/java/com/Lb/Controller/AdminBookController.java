@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/admins")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://library-manageme-git-5ba4d7-vivekkumar912850-gmailcoms-projects.vercel.app")
 public class AdminBookController {
     @Autowired
     private BookRepository bookRepository;
