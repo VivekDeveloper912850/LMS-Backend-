@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173") // Adjust for React URL
+@CrossOrigin(origins = "https://library-manageme-git-5ba4d7-vivekkumar912850-gmailcoms-projects.vercel.app") // Adjust for React URL
 public class UserController {
     @Autowired
     private UserService userService;
